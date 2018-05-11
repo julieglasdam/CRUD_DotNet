@@ -1,0 +1,10 @@
+/Users/julieglasdam/Documents/DotNet/Project02/bin/Debug/netcoreapp2.0/Project02.deps.json
+/Users/julieglasdam/Documents/DotNet/Project02/bin/Debug/netcoreapp2.0/Project02.runtimeconfig.json
+/Users/julieglasdam/Documents/DotNet/Project02/bin/Debug/netcoreapp2.0/Project02.runtimeconfig.dev.json
+/Users/julieglasdam/Documents/DotNet/Project02/bin/Debug/netcoreapp2.0/Project02.dll
+/Users/julieglasdam/Documents/DotNet/Project02/bin/Debug/netcoreapp2.0/Project02.pdb
+/Users/julieglasdam/Documents/DotNet/Project02/obj/Debug/netcoreapp2.0/Project02.csproj.CoreCompileInputs.cache
+/Users/julieglasdam/Documents/DotNet/Project02/obj/Debug/netcoreapp2.0/Project02.AssemblyInfoInputs.cache
+/Users/julieglasdam/Documents/DotNet/Project02/obj/Debug/netcoreapp2.0/Project02.AssemblyInfo.cs
+/Users/julieglasdam/Documents/DotNet/Project02/obj/Debug/netcoreapp2.0/Project02.dll
+/Users/julieglasdam/Documents/DotNet/Project02/obj/Debug/netcoreapp2.0/Project02.pdb

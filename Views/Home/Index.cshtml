@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<!-- CREATE -->
+<div class="row">
+    <div class="col-md-6">
+        <br>
+        <br>
+        <h3>Create</h3>
+         <form method="post" action="/Home/create">
+           <div class="form-group">
+             <label for="string">Input text</label>
+             <input type="text" class="form-control" id="Field01" name="Field01">
+           </div>
+           <button type="submit" class="btn btn-default">Submit</button>
+         </form> 
+    </div>
+</div>
+
+<!-- READ -->
+<div class="row">
+    <div class="col-md-6">
+        <br>
+        <br>
+        <h3>Read</h3>
+        <table class="table table-striped">
+          <tr>     
+            <th>ID</th>
+            <th>Field01</th>       
+          </tr>
+
+          @foreach(var list in @ViewBag.list)        
+          {                
+                <tr>
+                    <td> @list.TestObjectId</td>
+                    <td> @list.Field01</td>    
+                </tr>   
+          }
+        </table>
+    </div>
+</div>
+
+
+<!-- Update -->
+<div class="row">
+    <div class="col-md-6">
+        <br>
+        <br>
+        <h3>Update</h3>
+        <form method="post" action="/Home/update">
+           <div class="form-group">
+             <label for="string">Change text</label>
+             <input type="text" class="form-control" id="text" name="text">
+             <label for="string">at id</label>
+             <input type="number" class="form-control" id="Id" name="Id">
+           </div>
+
+           <button type="submit" class="btn btn-default">Submit</button>
+         </form> 
+    </div>
+</div>
+
+
+<!-- Delete -->
+<div class="row">
+    <div class="col-md-6">
+        <br>
+        <br>
+        <h3>Delete</h3>
+        <form method="post" action="/Home/delete">
+           <div class="form-group">
+             <label for="string">Delete row with id</label>
+             <input type="number" class="form-control" id="Id" name="Id">
+           </div>
+
+           <button type="submit" class="btn btn-default">Submit</button>
+         </form> 
+    </div>
+</div>
+
+</body>
+</html> 
